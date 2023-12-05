@@ -1,12 +1,6 @@
-<html <?php language_attributes() ?>>
-<head>
-    <meta charset="<?php bloginfo('charset') ?>">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-<body <?php body_class()?>>
     <?php get_header() ?>
     <main class="main">
-        <section class="section section-one">
+        <section class="section hero">
             <h2>Section 1</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, expedita velit? Temporibus culpa qui ab tempora odit dolores alias ea.</p>
         </section>
@@ -20,5 +14,3 @@
         </section>
     </main>
     <?php get_footer() ?>
-</body>
-</html>
